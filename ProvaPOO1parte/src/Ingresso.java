@@ -1,4 +1,4 @@
-public abstract class Ingresso {
+public class Ingresso {
     private double valor;
     private int qtdemax;
     private String tipoIngresso;
@@ -7,6 +7,9 @@ public abstract class Ingresso {
         this.valor = valor;
         this.qtdemax = qtdemax;
         this.tipoIngresso = tipoIngresso;
+    }
+
+    public Ingresso(String camarote, double v) {
     }
 
     public double getValor() {
